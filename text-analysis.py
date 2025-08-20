@@ -4,3 +4,9 @@ try:
 except FileNotFoundError:
     print("File not found: input.txt")
     raise SystemExit(1)
+
+def conta_righe(text):
+    count = len(text.splitlines())
+    return count
+
+print(conta_righe(content))
