@@ -6,7 +6,13 @@ except FileNotFoundError:
     raise SystemExit(1)
 
 def conta_righe(text):
-    count = len(text.splitlines())
-    return count
+    line_count = len(text.splitlines())
+    return line_count
+
+def conta_parole(text):
+    word_count = len(text.split())
+    return word_count
+
 
 print(conta_righe(content))
+print(conta_parole(content))
