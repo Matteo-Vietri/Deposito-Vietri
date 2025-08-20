@@ -26,4 +26,8 @@ jobs:
         isort --check-only .
 
     - name: Esecuzione dei test
+<<<<<<< Updated upstream
       run: pytest
+=======
+      run: pytest
+>>>>>>> Stashed changes
