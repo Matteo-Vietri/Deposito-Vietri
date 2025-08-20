@@ -27,7 +27,11 @@ jobs:
 
     - name: Esecuzione dei test
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       run: pytest
+=======
+      run: pytest
+>>>>>>> Stashed changes
 =======
       run: pytest
 >>>>>>> Stashed changes
